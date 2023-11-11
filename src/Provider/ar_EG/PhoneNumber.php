@@ -17,8 +17,7 @@ class PhoneNumber extends \Faker\Provider\PhoneNumber
         '+20{{code}}{{numberFormat}}',
         '20{{code}}{{numberFormat}}',
         '0{{code}} {{numberFormat}}',
-        '0{{code}}{{numberFormat}}',
-        '(0{{code}}) {{numberFormat}}',
+        '0{{code}}{{numberFormat}}'
     ];
 
     public function mobileNumber()
